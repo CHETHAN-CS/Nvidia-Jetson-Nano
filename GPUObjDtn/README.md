@@ -21,7 +21,7 @@ $ cmake ../
 
 ## Deselect pythorch (it is not required)
 
-$ make -js(nproc)
+$ make -j$(nproc)
 
 $ sudo make install
 
