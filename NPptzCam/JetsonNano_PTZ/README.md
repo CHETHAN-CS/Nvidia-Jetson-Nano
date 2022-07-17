@@ -1,3 +1,12 @@
+# STEPS
+
+[.] Replace the JetsonPTZ folder using the files in the repo
+
+[.] ADD yolo weights into the yolo folder.
+
+
+
+
 ## Hardware Connection
 ![IMAGE ALT TEXT](data/hardware.png)
 
