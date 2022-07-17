@@ -1,3 +1,5 @@
+# STEPS
+
 ## Hardware Connection
 ![IMAGE ALT TEXT](data/hardware.png)
 
@@ -10,6 +12,10 @@
     ```
     sudo apt install python-smbus
     ```
+
+[*] Replace the JetsonNano_PTZ folder using the same folder of this repo
+
+
 3. Enter the source directory
     ```
     cd MIPI_Camera/Jetson/JetsonNano_PTZ/
