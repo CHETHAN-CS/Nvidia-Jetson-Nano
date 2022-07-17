@@ -13,8 +13,9 @@
     sudo apt install python-smbus
     ```
 
-[*] Replace the JetsonNano_PTZ folder using the same folder of this repo
-[*] ADD yolo weights into the yolo folder.
+[#]  Replace the JetsonNano_PTZ folder using the same folder of this repo
+
+[#] ADD yolo weights into the yolo folder.
 
 3. Enter the source directory
     ```
