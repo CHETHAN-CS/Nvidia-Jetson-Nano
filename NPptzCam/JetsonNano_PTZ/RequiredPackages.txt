@@ -1,0 +1,45 @@
+To install required python packages for No parking run these cmds:(Use anaconda promt)
+
+===================================================================
+For Scipy:
+conda install -c anaconda scipy
+
+
+-------------------------------------------------------------------
+For imutils:
+
+conda install -c anaconda imutils
+
+-------------------------------------------------------------------
+For Dlib:
+conda install -c conda-forge dlib
+conda install -c conda-forge/label/cf201901 dlib
+conda install -c conda-forge/label/cf202003 dlib
+
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+======================================================================
+Possible error:
+
+Traceback (most recent call last):
+  File "latest_np.py", line 137, in <module>
+    output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+  File "latest_np.py", line 137, in <listcomp>
+    output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+IndexError: invalid index to scalar variable.
+
+
+then comment the line:output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+
+and add: output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
+
+or vice-versa
+
+==========================================================================
