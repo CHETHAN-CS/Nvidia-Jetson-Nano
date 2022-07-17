@@ -1,6 +1,6 @@
 # STEPS
 
-[.] Replace the JetsonPTZ folder using the files in the repo
+[.] Replace the JetsonNano_PTZ folder using the files in the repo
 
 [.] ADD yolo weights into the yolo folder.
 
