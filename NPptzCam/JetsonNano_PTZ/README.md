@@ -1,12 +1,5 @@
 # STEPS
 
-[.] Replace the JetsonNano_PTZ folder using the files in the repo
-
-[.] ADD yolo weights into the yolo folder.
-
-
-
-
 ## Hardware Connection
 ![IMAGE ALT TEXT](data/hardware.png)
 
@@ -19,6 +12,10 @@
     ```
     sudo apt install python-smbus
     ```
+
+[*] Replace the JetsonNano_PTZ folder using the same folder of this repo
+[*] ADD yolo weights into the yolo folder.
+
 3. Enter the source directory
     ```
     cd MIPI_Camera/Jetson/JetsonNano_PTZ/
